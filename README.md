@@ -17,7 +17,8 @@ Then open `http://localhost:4173`.
 
 This is a static site and can be deployed directly to Vercel without a build
 step. Spanish is the default language for first-time visitors; the selected
-language and theme are stored locally in the browser.
+language and theme are stored locally in the browser. The resume button also
+switches between the Spanish and English PDF versions.
 
 ## License
 
