@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portafolio profesional de Rodrigo Gómez Castañeda, desarrollador backend e ingeniero mecatrónico."
+    />
+    <meta name="theme-color" content="#f7f7f5" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>R</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rodrigo Gómez | Desarrollador Backend</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <a class="brand link" href="#top" aria-label="Ir al inicio">RG.</a>
+
+      <nav class="nav center" aria-label="Navegación principal">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#experience" data-i18n="navExperience"
+              >Experiencia</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills" data-i18n="navSkills"
+              >Habilidades</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#education" data-i18n="navEducation"
+              >Formación</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact" data-i18n="navContact"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+
+        <div class="language-switcher" aria-label="Selector de idioma">
+          <button
+            type="button"
+            class="language-switcher__button is-active"
+            data-language="es"
+            aria-pressed="true"
+          >
+            ES
+          </button>
+          <span aria-hidden="true">/</span>
+          <button
+            type="button"
+            class="language-switcher__button"
+            data-language="en"
+            aria-pressed="false"
+          >
+            EN
+          </button>
+        </div>
+
+        <button
+          type="button"
+          aria-label="Cambiar tema"
+          data-i18n-aria="themeLabel"
+          class="btn btn--icon theme-toggle"
+        >
+          <span aria-hidden="true" id="btn-theme" class="icon">☾</span>
+        </button>
+
+        <button
+          type="button"
+          aria-label="Abrir navegación"
+          data-i18n-aria="menuLabel"
+          class="btn btn--icon nav__hamburger"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true" class="menu-icon icon">☰</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about center" aria-labelledby="about-title">
+        <p class="about__eyebrow" data-i18n="eyebrow">
+          León, Guanajuato · Disponible para colaborar
+        </p>
+        <h1 id="about-title">
+          <span data-i18n="greeting">Hola, soy</span>
+          <span class="about__name">Rodrigo Gómez.</span>
+        </h1>
+        <h2 class="about__role" data-i18n="role">
+          Desarrollador Backend e Ingeniero Mecatrónico.
+        </h2>
+        <p class="about__desc" data-i18n="intro">
+          Construyo APIs REST y sistemas backend con Node.js, Express y bases de
+          datos relacionales. Me enfoco en crear soluciones escalables,
+          automatizar procesos y mejorar continuamente la operación detrás de
+          cada producto.
+        </p>
+
+        <div class="about__contact center">
+          <a
+            href="./assets/cv-rodrigo-gomez-en.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="btn btn--outline" data-i18n="resume"
+              >Ver CV (EN)</span
+            >
+          </a>
+
+          <a
+            href="mailto:rodrigo.gomezmex@gmail.com"
+            aria-label="Correo electrónico"
+            data-i18n-aria="emailAria"
+            class="link link--icon"
+          >
+            <span aria-hidden="true" class="icon">✉</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/rodrigo-g%C3%B3mez-c"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+            class="link link--icon"
+          >
+            <span aria-hidden="true" class="linkedin-mark">in</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience">
+        <h2 class="section__title" data-i18n="experienceTitle">Experiencia</h2>
+
+        <div class="experience__grid">
+          <article class="experience-card">
+            <div class="experience-card__meta">
+              <p class="experience-card__company">Go-Laser</p>
+              <p data-i18n="goLaserDate">Mar 2023 — Actualidad</p>
+            </div>
+            <h3 data-i18n="goLaserRole">
+              Asistente de producción · Desarrollo backend
+            </h3>
+            <p class="experience-card__location">León, Guanajuato</p>
+            <ul class="experience-card__list">
+              <li data-i18n="goLaser1">
+                Desarrollé el backend del sitio web para recibir archivos de
+                corte láser y pedidos personalizados en línea.
+              </li>
+              <li data-i18n="goLaser2">
+                Implementé autenticación, control de acceso y sesiones con JWT.
+              </li>
+              <li data-i18n="goLaser3">
+                Administré datos de usuarios, pedidos, archivos vectoriales y
+                estados de producción en PostgreSQL.
+              </li>
+              <li data-i18n="goLaser4">
+                Integré la API con el sistema interno para automatizar
+                actualizaciones y notificaciones por correo.
+              </li>
+            </ul>
+            <ul class="experience-card__stack" aria-label="Tecnologías">
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>PostgreSQL</li>
+              <li>JWT</li>
+            </ul>
+          </article>
+
+          <article class="experience-card">
+            <div class="experience-card__meta">
+              <p class="experience-card__company">CIATEC A.C.</p>
+              <p data-i18n="ciatecDate">Ene 2022 — Feb 2023</p>
+            </div>
+            <h3 data-i18n="ciatecRole">
+              Desarrollador Junior · Biomecatrónica
+            </h3>
+            <p class="experience-card__location">León, Guanajuato</p>
+            <ul class="experience-card__list">
+              <li data-i18n="ciatec1">
+                Desarrollé un sistema de gestión de pacientes con Node.js,
+                Express y MySQL.
+              </li>
+              <li data-i18n="ciatec2">
+                Diseñé una base de datos relacional para escaneos, modelos 3D y
+                expedientes clínicos.
+              </li>
+              <li data-i18n="ciatec3">
+                Automaticé la generación de reportes PDF con plantillas HTML y
+                Puppeteer.
+              </li>
+              <li data-i18n="ciatec4">
+                Colaboré con el equipo de biomecánica para validar la
+                consistencia de los datos.
+              </li>
+            </ul>
+            <ul class="experience-card__stack" aria-label="Tecnologías">
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MySQL</li>
+              <li>Puppeteer</li>
+            </ul>
+          </article>
+
+          <article class="experience-card">
+            <div class="experience-card__meta">
+              <p class="experience-card__company">Press Herramentales</p>
+              <p data-i18n="pressDate">Jul 2021 — Dic 2021</p>
+            </div>
+            <h3 data-i18n="pressRole">
+              Ingeniero en prácticas · Optimización de producción
+            </h3>
+            <p class="experience-card__location">León, Guanajuato</p>
+            <ul class="experience-card__list">
+              <li data-i18n="press1">
+                Construí un sistema de monitoreo de producción con Node.js y
+                WebSockets.
+              </li>
+              <li data-i18n="press2">
+                Desarrollé una API con Express para métricas de eficiencia.
+              </li>
+              <li data-i18n="press3">
+                Implementé persistencia local con SQLite para operar sin
+                conexión.
+              </li>
+              <li data-i18n="press4">
+                Contribuí a reducir en 15% el tiempo de ciclo por pieza.
+              </li>
+            </ul>
+            <ul class="experience-card__stack" aria-label="Tecnologías">
+              <li>Node.js</li>
+              <li>WebSockets</li>
+              <li>Express</li>
+              <li>SQLite</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <h2 class="section__title" data-i18n="skillsTitle">Habilidades</h2>
+        <p class="section__lead" data-i18n="skillsLead">
+          Tecnologías y herramientas con las que desarrollo soluciones backend.
+        </p>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Node.js</li>
+          <li class="skills__list-item btn btn--plain">Express</li>
+          <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">SQLite</li>
+          <li class="skills__list-item btn btn--plain">REST APIs</li>
+          <li class="skills__list-item btn btn--plain">JWT</li>
+          <li class="skills__list-item btn btn--plain">Git & GitHub</li>
+          <li class="skills__list-item btn btn--plain">Postman</li>
+        </ul>
+      </section>
+
+      <section class="section education" id="education">
+        <h2 class="section__title" data-i18n="educationTitle">
+          Formación y logros
+        </h2>
+        <div class="education__grid">
+          <article class="info-card">
+            <p class="info-card__label" data-i18n="educationLabel">Educación</p>
+            <h3>Universidad Iberoamericana de León</h3>
+            <p data-i18n="degree">
+              Licenciatura en Ingeniería Mecatrónica · Febrero 2023
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="info-card__label" data-i18n="achievementsLabel">
+              Liderazgo y formación
+            </p>
+            <ul class="info-card__list">
+              <li data-i18n="achievement1">
+                Vicepresidente de la Sociedad de Alumnos de Ingeniería.
+              </li>
+              <li data-i18n="achievement2">
+                Secretario del Consejo de Sociedades de Alumnos.
+              </li>
+              <li data-i18n="achievement3">
+                Curso completo de desarrollo web: HTML5, CSS3, JavaScript, PHP
+                y MySQL.
+              </li>
+            </ul>
+          </article>
+
+          <article class="info-card">
+            <p class="info-card__label" data-i18n="languagesLabel">Idiomas</p>
+            <h3 data-i18n="spanishLevel">Español · Nativo</h3>
+            <p data-i18n="englishLevel">
+              Inglés · Intermedio, lectura técnica y comunicación
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact center" id="contact">
+        <p class="contact__eyebrow" data-i18n="contactEyebrow">
+          ¿Tienes un proyecto en mente?
+        </p>
+        <h2 class="section__title" data-i18n="contactTitle">Hablemos</h2>
+        <p class="contact__copy" data-i18n="contactCopy">
+          Estoy abierto a nuevas oportunidades y colaboraciones en desarrollo
+          backend.
+        </p>
+        <div class="contact__actions center">
+          <a href="mailto:rodrigo.gomezmex@gmail.com">
+            <span class="btn btn--outline" data-i18n="emailButton"
+              >Enviar correo</span
+            >
+          </a>
+          <a class="link contact__phone" href="tel:+524776713531"
+            >+52 477 671 3531</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        © <span id="year"></span> Rodrigo Gómez ·
+        <a
+          href="https://github.com/rjshkhr/cleanfolio-minimal"
+          target="_blank"
+          rel="noreferrer"
+          class="link footer__link"
+          data-i18n="footerCredit"
+          >Basado en Cleanfolio Minimal</a
+        >
+      </p>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a
+          aria-label="Volver arriba"
+          data-i18n-aria="scrollAria"
+          href="#top"
+        >
+          <span aria-hidden="true">↑</span>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
