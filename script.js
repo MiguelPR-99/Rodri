@@ -1,255 +1,244 @@
 const translations = {
   es: {
-    pageTitle: "Rodrigo Gómez | Desarrollador Backend Jr.",
-    pageDescription:
-      "Portafolio profesional de Rodrigo Gómez Castañeda, desarrollador backend junior y full-stack junior.",
     navExperience: "Experiencia",
     navProjects: "Proyectos",
-    navSkills: "Habilidades",
-    navEducation: "Formación",
+    navSkills: "Stack",
     navContact: "Contacto",
-    navAria: "Navegación principal",
-    languageAria: "Selector de idioma",
-    technologiesAria: "Tecnologías",
-    themeLabel: "Cambiar tema",
-    menuLabel: "Abrir navegación",
-    eyebrow: "León, Guanajuato · Disponibilidad para reubicarse en México",
-    greeting: "Hola, soy",
-    role: "Desarrollador Backend Jr. y Full-Stack Jr.",
+    themeLabel: "Tema",
+    availability: "Disponible para oportunidades junior",
+    role: "Desarrollador Backend & Full-Stack Junior",
     intro:
-      "Ingeniero Mecatrónico en transición al desarrollo de software, con experiencia construyendo APIs REST, diseñando bases de datos relacionales e implementando autenticación y herramientas internas. Busco oportunidades junior o trainee para crear soluciones confiables, mantenibles y eficientes.",
-    resume: "Ver CV",
-    emailAria: "Correo electrónico",
-    experienceTitle: "Experiencia",
-    goLaserDate: "Mar 2023 — Actualidad",
-    goLaserRole: "Auxiliar de Producción · Desarrollador Backend",
-    goLaser1:
-      "Desarrollé el backend de una plataforma de pedidos personalizados, permitiendo cargar archivos de corte láser y dar seguimiento a solicitudes.",
-    goLaser2:
-      "Implementé autenticación con JWT, control de acceso por roles y flujos para usuarios, pedidos, archivos y producción.",
-    goLaser3:
-      "Automaticé actualizaciones de estatus y notificaciones por correo, reduciendo el seguimiento manual de pedidos internos.",
-    ciatecDate: "Ene 2022 — Feb 2023",
-    ciatecRole: "Desarrollador Junior · Departamento de Biomecatrónica",
-    ciatec1:
-      "Desarrollé un sistema de gestión de pacientes con Node.js, Express y MySQL para expedientes clínicos, escaneos y modelos 3D.",
-    ciatec2:
-      "Diseñé la base de datos relacional para organizar pacientes, estudios, modelos y seguimiento técnico.",
-    ciatec3:
-      "Automaticé la generación de reportes PDF con plantillas HTML y Puppeteer, colaborando con especialistas para validar los datos.",
-    pressDate: "Jul 2021 — Dic 2021",
+      "Ingeniero mecatrónico que convierte procesos reales en APIs, bases de datos y herramientas internas confiables.",
+    talk: "Hablemos",
+    requestResume: "Solicitar CV",
+    privacyInline: "CV y teléfono disponibles únicamente por contacto directo.",
+    relocation: "REUBICACIÓN EN MÉXICO",
+    metricGpa: "Promedio universitario / 10",
+    metricCycle: "Reducción de tiempo de ciclo",
+    metricSystems: "Sistemas técnicos construidos",
+    experienceTitle: "Experiencia que conecta software y operación.",
+    experienceLead:
+      "Sistemas creados dentro de entornos reales: producción, investigación y automatización.",
+    present: "ACTUAL",
+    goRole: "Asistente de Producción · Desarrollador Backend",
+    goDescription:
+      "Backend para una plataforma de pedidos personalizados con archivos de corte láser, control de acceso por roles y seguimiento de producción.",
+    ciatecRole: "Desarrollador Junior · Biomecatrónica",
+    ciatecDescription:
+      "Sistema para expedientes clínicos, estudios, modelos 3D y generación automatizada de reportes PDF.",
     pressRole: "Practicante de Ingeniería · Optimización de Producción",
-    press1:
-      "Desarrollé un prototipo de monitoreo con Node.js, WebSockets y SQLite para visualizar actividad operativa en tiempo real.",
-    press2:
-      "Creé endpoints para métricas de eficiencia y contribuí a reducir en 15% el tiempo de ciclo por pieza.",
-    projectsTitle: "Proyectos técnicos",
+    pressDescription:
+      "Prototipo de monitoreo en tiempo real y endpoints de eficiencia que contribuyeron a reducir 15% el ciclo por pieza.",
+    projectsTitle: "Tres sistemas. Tres problemas reales.",
     projectsLead:
-      "Sistemas construidos para resolver necesidades reales de operación, datos y automatización.",
-    projectOrdersTitle: "API de pedidos personalizados",
-    projectOrdersDescription:
-      "Backend para gestionar usuarios, archivos vectoriales, pedidos y estatus de producción.",
-    projectPatientsTitle: "Sistema de pacientes y reportes",
-    projectPatientsDescription:
-      "Plataforma interna para expedientes clínicos, modelos 3D y generación automática de reportes PDF.",
-    projectMonitoringTitle: "Monitoreo de producción",
-    projectMonitoringDescription:
-      "Prototipo para capturar actividad operativa y calcular métricas de eficiencia en producción.",
-    skillsTitle: "Habilidades",
-    skillsLead:
-      "Tecnologías y herramientas con las que desarrollo soluciones backend.",
-    basicReact: "React básico",
-    educationTitle: "Formación y logros",
-    educationLabel: "Educación",
-    degree: "Licenciatura en Ingeniería Mecatrónica · 2018–2023",
-    gpa: "Promedio global: 9.8/10",
-    achievementsLabel: "Liderazgo y formación",
-    achievement1: "Presidente de la Sociedad de Ingeniería.",
-    achievement2: "Secretario del Consejo de Sociedades de Alumnos.",
-    achievement3:
-      "Curso completo de desarrollo web: HTML5, CSS3, JavaScript, PHP y MySQL.",
-    languagesLabel: "Idiomas",
-    spanishLevel: "Español · Nativo",
-    englishLevel: "Inglés · Intermedio-avanzado",
-    contactEyebrow: "¿Tienes un proyecto en mente?",
-    contactTitle: "Hablemos",
-    contactCopy:
-      "Estoy abierto a oportunidades junior o trainee y a colaboraciones en desarrollo de software.",
-    emailButton: "Enviar correo",
-    footerCredit: "Basado en Cleanfolio Minimal",
-    scrollAria: "Volver arriba",
+      "Del flujo operativo a una solución mantenible, medible y lista para crecer.",
+    projectOneTitle: "API de pedidos personalizados",
+    projectOneDescription:
+      "Usuarios, archivos vectoriales, pedidos y estados de producción dentro de un flujo autenticado.",
+    projectTwoTitle: "Gestión clínica y reportes",
+    projectTwoDescription:
+      "Datos de pacientes, estudios y modelos 3D transformados en reportes consistentes.",
+    projectThreeTitle: "Monitoreo de producción",
+    projectThreeDescription:
+      "Actividad operativa en tiempo real y métricas para detectar oportunidades de eficiencia.",
+    skillsTitle: "Stack enfocado en producto y operación.",
+    skillBackend: "Backend & APIs",
+    skillData: "Datos & automatización",
+    skillDelivery: "Entrega & herramientas",
+    gpaLabel: "PROMEDIO GENERAL / 10",
+    educationTitle: "Ingeniería, liderazgo y comunicación.",
+    educationLabel: "FORMACIÓN",
+    degree: "Ingeniería Mecatrónica · 2018–2023",
+    leadershipLabel: "LIDERAZGO",
+    leadershipTitle: "Presidente de la Sociedad de Alumnos",
+    leadershipText:
+      "Organización, representación estudiantil y coordinación de iniciativas.",
+    languageLabel: "IDIOMAS",
+    spanishNative: "Español · Nativo",
+    englishLevel: "Inglés · Intermedio alto",
+    contactTitle: "Construyamos algo que funcione en el mundo real.",
+    contactLead:
+      "Cuéntame sobre la oportunidad. Rodrigo responderá directamente y podrá compartir su CV durante la conversación.",
+    locationLabel: "UBICACIÓN",
+    privacyLabel: "PRIVACIDAD",
+    privacyText:
+      "El teléfono y el CV no se publican. Se comparten únicamente después de establecer contacto.",
+    formName: "Nombre",
+    formEmail: "Correo",
+    formCompany: "Empresa / proyecto",
+    formMessage: "Mensaje",
+    namePlaceholder: "Tu nombre",
+    emailPlaceholder: "nombre@empresa.com",
+    companyPlaceholder: "¿Desde dónde escribes?",
+    messagePlaceholder:
+      "Cuéntame sobre la oportunidad, el equipo y el siguiente paso.",
+    consent:
+      "Acepto que mis datos se utilicen únicamente para responder a esta solicitud.",
+    sendMessage: "Enviar mensaje",
+    formNote:
+      "Este formulario no muestra ni libera información personal automáticamente.",
+    resumeRequestMessage:
+      "Hola Rodrigo, me gustaría solicitar tu CV para revisar una oportunidad profesional.",
+    contactSubject: "Oportunidad profesional desde el portfolio",
+    mailClientOpened:
+      "Se abrirá tu aplicación de correo para que puedas revisar y enviar el mensaje.",
+    footerPrivacy: "PORTFOLIO CON PRIVACIDAD"
   },
   en: {
-    pageTitle: "Rodrigo Gómez | Junior Backend Developer",
-    pageDescription:
-      "Professional portfolio of Rodrigo Gómez Castañeda, junior backend and full-stack developer.",
     navExperience: "Experience",
     navProjects: "Projects",
-    navSkills: "Skills",
-    navEducation: "Background",
+    navSkills: "Stack",
     navContact: "Contact",
-    navAria: "Main navigation",
-    languageAria: "Language selector",
-    technologiesAria: "Technologies",
-    themeLabel: "Toggle theme",
-    menuLabel: "Open navigation",
-    eyebrow: "León, Guanajuato · Open to relocate within Mexico",
-    greeting: "Hi, I am",
-    role: "Junior Backend and Full-Stack Developer.",
+    themeLabel: "Theme",
+    availability: "Open to junior software opportunities",
+    role: "Junior Backend & Full-Stack Developer",
     intro:
-      "Mechatronics Engineer transitioning into software development, with experience building REST APIs, designing relational databases, and implementing authentication and internal tools. I am seeking junior or trainee opportunities to create reliable, maintainable, and efficient solutions.",
-    resume: "View resume",
-    emailAria: "Email",
-    experienceTitle: "Experience",
-    goLaserDate: "Mar 2023 — Present",
-    goLaserRole: "Production Assistant · Backend Developer",
-    goLaser1:
-      "Developed the backend for a custom order platform, enabling laser-cutting file uploads and request tracking.",
-    goLaser2:
-      "Implemented JWT authentication, role-based access control, and workflows for users, orders, files, and production.",
-    goLaser3:
-      "Automated status updates and email notifications, reducing manual tracking of internal orders.",
-    ciatecDate: "Jan 2022 — Feb 2023",
-    ciatecRole: "Junior Developer · Biomechatronics Department",
-    ciatec1:
-      "Built a patient management system with Node.js, Express, and MySQL for clinical records, scans, and 3D models.",
-    ciatec2:
-      "Designed the relational database for patients, studies, models, and technical follow-up.",
-    ciatec3:
-      "Automated PDF report generation with HTML templates and Puppeteer while collaborating with specialists to validate data.",
-    pressDate: "Jul 2021 — Dec 2021",
+      "Mechatronics engineer turning real-world processes into reliable APIs, databases, and internal tools.",
+    talk: "Let's talk",
+    requestResume: "Request résumé",
+    privacyInline: "Résumé and phone are available through direct contact only.",
+    relocation: "OPEN TO RELOCATE IN MEXICO",
+    metricGpa: "Overall university GPA / 10",
+    metricCycle: "Cycle-time reduction",
+    metricSystems: "Technical systems built",
+    experienceTitle: "Experience connecting software and operations.",
+    experienceLead:
+      "Systems built inside real production, research, and automation environments.",
+    present: "PRESENT",
+    goRole: "Production Assistant · Backend Developer",
+    goDescription:
+      "Backend for a custom-order platform supporting laser-cutting files, role-based access, and production tracking.",
+    ciatecRole: "Junior Developer · Biomechatronics",
+    ciatecDescription:
+      "System for clinical records, studies, 3D models, and automated PDF report generation.",
     pressRole: "Engineering Intern · Production Optimization",
-    press1:
-      "Developed a monitoring prototype with Node.js, WebSockets, and SQLite to visualize real-time operational activity.",
-    press2:
-      "Created endpoints for efficiency metrics and contributed to a 15% reduction in cycle time per part.",
-    projectsTitle: "Technical projects",
+    pressDescription:
+      "Real-time monitoring prototype and efficiency endpoints that contributed to a 15% cycle-time reduction per part.",
+    projectsTitle: "Three systems. Three real problems.",
     projectsLead:
-      "Systems built to solve real operational, data, and automation needs.",
-    projectOrdersTitle: "Custom Order Management API",
-    projectOrdersDescription:
-      "Backend application for managing users, vector files, orders, and production status.",
-    projectPatientsTitle: "Patient Management and Reporting System",
-    projectPatientsDescription:
-      "Internal platform for clinical records, 3D models, and automated PDF report generation.",
-    projectMonitoringTitle: "Production Monitoring System",
-    projectMonitoringDescription:
-      "Prototype for collecting operational activity and calculating production efficiency metrics.",
-    skillsTitle: "Skills",
-    skillsLead:
-      "Technologies and tools I use to develop backend solutions.",
-    basicReact: "Basic React",
-    educationTitle: "Education & achievements",
-    educationLabel: "Education",
-    degree: "Bachelor of Science in Mechatronics Engineering · 2018–2023",
-    gpa: "Overall GPA: 9.8/10",
-    achievementsLabel: "Leadership & training",
-    achievement1: "President of the Engineering Student Society.",
-    achievement2: "Secretary of the Student Society Council.",
-    achievement3:
-      "Complete web development course: HTML5, CSS3, JavaScript, PHP, and MySQL.",
-    languagesLabel: "Languages",
-    spanishLevel: "Spanish · Native",
-    englishLevel: "English · Upper-Intermediate",
-    contactEyebrow: "Have a project in mind?",
-    contactTitle: "Let’s talk",
-    contactCopy:
-      "I am open to junior or trainee opportunities and software development collaborations.",
-    emailButton: "Send an email",
-    footerCredit: "Based on Cleanfolio Minimal",
-    scrollAria: "Back to top",
-  },
-}
+      "From operational workflow to a maintainable, measurable solution ready to scale.",
+    projectOneTitle: "Custom order management API",
+    projectOneDescription:
+      "Users, vector files, orders, and production statuses inside an authenticated workflow.",
+    projectTwoTitle: "Clinical management and reporting",
+    projectTwoDescription:
+      "Patient data, studies, and 3D models transformed into consistent reports.",
+    projectThreeTitle: "Production monitoring",
+    projectThreeDescription:
+      "Real-time operational activity and metrics designed to expose efficiency opportunities.",
+    skillsTitle: "A stack focused on product and operations.",
+    skillBackend: "Backend & APIs",
+    skillData: "Data & automation",
+    skillDelivery: "Delivery & tools",
+    gpaLabel: "OVERALL GPA / 10",
+    educationTitle: "Engineering, leadership, and communication.",
+    educationLabel: "EDUCATION",
+    degree: "B.S. in Mechatronics Engineering · 2018–2023",
+    leadershipLabel: "LEADERSHIP",
+    leadershipTitle: "President of the Engineering Student Society",
+    leadershipText:
+      "Organization, student representation, and initiative coordination.",
+    languageLabel: "LANGUAGES",
+    spanishNative: "Spanish · Native",
+    englishLevel: "English · Upper-intermediate",
+    contactTitle: "Let's build something that works in the real world.",
+    contactLead:
+      "Tell me about the opportunity. Rodrigo will reply directly and can share his résumé during the conversation.",
+    locationLabel: "LOCATION",
+    privacyLabel: "PRIVACY",
+    privacyText:
+      "Phone number and résumé are not published. They are shared only after direct contact is established.",
+    formName: "Name",
+    formEmail: "Email",
+    formCompany: "Company / project",
+    formMessage: "Message",
+    namePlaceholder: "Your name",
+    emailPlaceholder: "name@company.com",
+    companyPlaceholder: "Where are you writing from?",
+    messagePlaceholder:
+      "Tell me about the opportunity, the team, and the next step.",
+    consent: "I agree that my data may be used only to reply to this request.",
+    sendMessage: "Send message",
+    formNote:
+      "This form does not display or release personal information automatically.",
+    resumeRequestMessage:
+      "Hi Rodrigo, I would like to request your résumé for a professional opportunity.",
+    contactSubject: "Professional opportunity from the portfolio",
+    mailClientOpened:
+      "Your email app will open so you can review and send the message.",
+    footerPrivacy: "PRIVACY-FIRST PORTFOLIO"
+  }
+};
 
-const body = document.body
-const themeIcon = document.querySelector("#btn-theme")
-const themeButton = document.querySelector(".theme-toggle")
-const hamburgerButton = document.querySelector(".nav__hamburger")
-const hamburgerIcon = hamburgerButton.querySelector(".menu-icon")
-const navList = document.querySelector(".nav__list")
-const languageButtons = document.querySelectorAll("[data-language]")
-const descriptionMeta = document.querySelector('meta[name="description"]')
-const resumeLink = document.querySelector("#resume-link")
-const resumeLinks = {
-  es: "./assets/rodrigo-gomez-cv-es.pdf",
-  en: "./assets/rodrigo-gomez-cv-en.pdf",
-}
+const params = new URLSearchParams(window.location.search);
+let language = params.get("lang") === "en" ? "en" : "es";
+let theme = params.get("theme") === "light" ? "light" : "dark";
 
-const setLanguage = (language, persist = true) => {
-  const locale = translations[language] ? language : "es"
-  const dictionary = translations[locale]
-
-  document.documentElement.lang = locale
-  document.title = dictionary.pageTitle
-  descriptionMeta.content = dictionary.pageDescription
-  resumeLink.href = resumeLinks[locale]
+function renderPreferences() {
+  document.documentElement.lang = language;
+  document.body.classList.toggle("light", theme === "light");
+  document.getElementById("active-language").textContent = language.toUpperCase();
+  document.getElementById("inactive-language").textContent =
+    language === "es" ? "EN" : "ES";
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
-    const key = element.dataset.i18n
-    if (dictionary[key]) element.textContent = dictionary[key]
-  })
+    const key = element.dataset.i18n;
+    if (translations[language][key]) {
+      element.textContent = translations[language][key];
+    }
+  });
 
-  document.querySelectorAll("[data-i18n-aria]").forEach((element) => {
-    const key = element.dataset.i18nAria
-    if (dictionary[key]) element.setAttribute("aria-label", dictionary[key])
-  })
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+    const key = element.dataset.i18nPlaceholder;
+    if (translations[language][key]) {
+      element.setAttribute("placeholder", translations[language][key]);
+    }
+  });
 
-  languageButtons.forEach((button) => {
-    const isActive = button.dataset.language === locale
-    button.classList.toggle("is-active", isActive)
-    button.setAttribute("aria-pressed", String(isActive))
-  })
-
-  if (persist) localStorage.setItem("portfolio-language", locale)
+  const url = new URL(window.location.href);
+  url.searchParams.set("lang", language);
+  url.searchParams.set("theme", theme);
+  window.history.replaceState({}, "", url);
 }
 
-languageButtons.forEach((button) => {
-  button.addEventListener("click", () => setLanguage(button.dataset.language))
-})
+document.querySelector(".language-control").addEventListener("click", () => {
+  language = language === "es" ? "en" : "es";
+  renderPreferences();
+});
 
-const setTheme = (theme, persist = true) => {
-  const isDark = theme === "dark"
-  body.classList.toggle("dark", isDark)
-  body.classList.toggle("light", !isDark)
-  themeIcon.textContent = isDark ? "☀" : "☾"
+document.querySelector(".theme-control").addEventListener("click", () => {
+  theme = theme === "dark" ? "light" : "dark";
+  renderPreferences();
+});
 
-  if (persist) localStorage.setItem("portfolio-theme", isDark ? "dark" : "light")
-}
+document.querySelector("[data-request-resume]").addEventListener("click", () => {
+  const message = document.getElementById("contact-message");
+  if (!message.value.trim()) {
+    message.value = translations[language].resumeRequestMessage;
+  }
+  window.setTimeout(() => message.focus(), 450);
+});
 
-themeButton.addEventListener("click", () => {
-  setTheme(body.classList.contains("dark") ? "light" : "dark")
-})
+document.getElementById("contact-form").addEventListener("submit", (event) => {
+  event.preventDefault();
+  const form = event.currentTarget;
+  if (!form.reportValidity()) return;
 
-const closeNavigation = () => {
-  navList.classList.remove("display-nav-list")
-  hamburgerIcon.textContent = "☰"
-  hamburgerButton.setAttribute("aria-expanded", "false")
-}
+  const values = new FormData(form);
+  const subject = translations[language].contactSubject;
+  const body = [
+    `${translations[language].formName}: ${values.get("name")}`,
+    `${translations[language].formEmail}: ${values.get("email")}`,
+    `${translations[language].formCompany}: ${values.get("company") || "—"}`,
+    "",
+    values.get("message"),
+  ].join("\n");
 
-hamburgerButton.addEventListener("click", () => {
-  const isOpen = navList.classList.toggle("display-nav-list")
-  hamburgerIcon.textContent = isOpen ? "×" : "☰"
-  hamburgerButton.setAttribute("aria-expanded", String(isOpen))
-})
+  document.getElementById("form-note").textContent =
+    translations[language].mailClientOpened;
+  window.location.href = `mailto:rodrigo.gomezmex@gmail.com?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
+});
 
-navList.querySelectorAll("a").forEach((link) => {
-  link.addEventListener("click", closeNavigation)
-})
-
-document.addEventListener("scroll", () => {
-  const scrollButton = document.querySelector(".scroll-top")
-  const isVisible =
-    document.body.scrollTop > 500 || document.documentElement.scrollTop > 500
-  scrollButton.style.display = isVisible ? "block" : "none"
-})
-
-document.querySelector("#year").textContent = new Date().getFullYear()
-
-const savedTheme = localStorage.getItem("portfolio-theme")
-const preferredTheme =
-  savedTheme ||
-  (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
-setTheme(preferredTheme, false)
-
-// Spanish is the first-visit default; a visitor's explicit choice is remembered.
-setLanguage(localStorage.getItem("portfolio-language") || "es", false)
+renderPreferences();
